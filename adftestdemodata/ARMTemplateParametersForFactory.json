@@ -1,0 +1,75 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "adftestdemodata"
+		},
+		"AzureDataLakeStorage1_accountKey": {
+			"value": ""
+		},
+		"AzureDataLakeStorage2_accountKey": {
+			"value": ""
+		},
+		"AzureDataLakeStorage3_accountKey": {
+			"value": ""
+		},
+		"AzureDataLakeStorage4_accountKey": {
+			"value": ""
+		},
+		"EVENT_DESTINATION_accountKey": {
+			"value": ""
+		},
+		"EVENT_TRIGGER_CSV_accountKey": {
+			"value": ""
+		},
+		"LS_BULK_CSV_accountKey": {
+			"value": ""
+		},
+		"LS_EXCELUPLOAD_accountKey": {
+			"value": ""
+		},
+		"LS_EXCEL_INSERT_accountKey": {
+			"value": ""
+		},
+		"LS_EXCEL_UPLOAD_accountKey": {
+			"value": ""
+		},
+		"LS_SINK_EXCEL_accountKey": {
+			"value": ""
+		},
+		"AzureDataLakeStorage1_properties_typeProperties_url": {
+			"value": "https://adlstestdemodata.dfs.core.windows.net/"
+		},
+		"AzureDataLakeStorage2_properties_typeProperties_url": {
+			"value": "https://adlstestdemodata.dfs.core.windows.net/"
+		},
+		"AzureDataLakeStorage3_properties_typeProperties_url": {
+			"value": "https://adlstestbulkload.dfs.core.windows.net/"
+		},
+		"AzureDataLakeStorage4_properties_typeProperties_url": {
+			"value": "https://adsfinal.dfs.core.windows.net/"
+		},
+		"EVENT_DESTINATION_properties_typeProperties_url": {
+			"value": "https://adlstestdemodata.dfs.core.windows.net/"
+		},
+		"EVENT_TRIGGER_CSV_properties_typeProperties_url": {
+			"value": "https://adlstestbulkload.dfs.core.windows.net/"
+		},
+		"LS_BULK_CSV_properties_typeProperties_url": {
+			"value": "https://adlstestbulkload.dfs.core.windows.net"
+		},
+		"LS_EXCELUPLOAD_properties_typeProperties_url": {
+			"value": "https://adlstestexcelupload.dfs.core.windows.net"
+		},
+		"LS_EXCEL_INSERT_properties_typeProperties_url": {
+			"value": "https://adlstestexcelupload.dfs.core.windows.net"
+		},
+		"LS_EXCEL_UPLOAD_properties_typeProperties_url": {
+			"value": "https://adlstestbulkload.dfs.core.windows.net"
+		},
+		"LS_SINK_EXCEL_properties_typeProperties_url": {
+			"value": "https://adlsexcelreceive.dfs.core.windows.net/"
+		}
+	}
+}
