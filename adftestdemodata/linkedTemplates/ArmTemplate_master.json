@@ -95,6 +95,10 @@
 			"type": "string",
 			"defaultValue": "https://adlsexcelreceive.dfs.core.windows.net/"
 		},
+		"trigger1_properties_typeProperties_scope": {
+			"type": "string",
+			"defaultValue": "/subscriptions/400af5d3-7ed9-47f9-be3d-bef6af97b2a1/resourceGroups/rgtestdemodata/providers/Microsoft.Storage/storageAccounts/adlstestbulkload"
+		},
 		"containerUri": {
 			"type": "string",
 			"metadata": "URI to storage account containing linked ARM templates"
@@ -187,6 +191,9 @@
 					},
 					"LS_SINK_EXCEL_properties_typeProperties_url": {
 						"value": "[parameters('LS_SINK_EXCEL_properties_typeProperties_url')]"
+					},
+					"trigger1_properties_typeProperties_scope": {
+						"value": "[parameters('trigger1_properties_typeProperties_scope')]"
 					}
 				}
 			},
